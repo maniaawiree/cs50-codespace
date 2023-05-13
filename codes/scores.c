@@ -6,10 +6,11 @@ int main(void)
 
     int size = 10;
     int scores[size];
-    do
+    int stop = 0;
+
+    for (int i = 0; i < size && stop ; i++)
     {
-        scores[i]=get_int("Scores: ");
-        
+        scores[i] = get_int("Score: ");
     }
     int sum = 0 ;
     double count = sizeof(scores) / sizeof(scores[0]);

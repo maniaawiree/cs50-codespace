@@ -13,23 +13,20 @@ int main(void)
 
     for (int i = 0; i < size && stop == 0; i++)
     {
-        char ch;
-        int succes;
-        printf("Score: ");
-        success = scanf("%i%c", &input, &ch);
-        /
+        scores[i] = get_int("Score: ");
+
     }
 
-    double count = sizeof(scores) / sizeof(scores[0]);
+    //double count = sizeof(scores) / sizeof(scores[0]);
 
-    for (int i = 0 ; i < count && scores[i] != 0; i++)
+    for (int i = 0 ; i < size && scores[i] != 0; i++)
     {
         printf("%i\n", scores[i]);
         sum = scores[i] + sum;
     }
     //as long as one of the values participating in the arithmetic expression is something like a float
     //the rest will be treated/ promoted as floating value too
-    printf("The average is %.2lf\n", (double)sum / count);
+    printf("The average is %.2lf\n", (double)sum / size);
 
     return 0;
 

@@ -10,6 +10,7 @@ int main(void)
 
     for (int i = 0; i < size && scores[i] != 0; i++)
     {
+        printf("%i\n", scores[i]);
         sum = scores[i] + sum;
         count++;
     }

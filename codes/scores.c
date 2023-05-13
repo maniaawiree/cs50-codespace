@@ -14,12 +14,10 @@ int main(void)
     for (int i = 0; i < size && stop == 0; i++)
     {
         char ch;
+        int succes;
         printf("Score: ");
-        scanf("%i%c", &input);
-        if (input == '\n')
-            stop = 1;
-        else
-            scores[i] = input;
+        success = scanf("%i%c", &input, &ch);
+        /
     }
 
     double count = sizeof(scores) / sizeof(scores[0]);

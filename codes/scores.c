@@ -5,8 +5,13 @@ int main(void)
 {
 
     int size = 10;
+    int scores[size];
+    do
+    {
+        scores[i]=get_int("Scores: ");
+        
+    }
     int sum = 0 ;
-    
     double count = sizeof(scores) / sizeof(scores[0]);
     for (int i = 0 ; i < count ; i++)
     {

@@ -4,19 +4,20 @@
 int main(void)
 {
 
-    int size = 10;
+    int size = 0;
     int scores[size];
     int stop = 0;
     int sum = 0 ;
 
+    size = get_int("How many scores? ");
+
     for (int i = 0; i < size && stop == 0; i++)
     {
-        char input;
+        char ch;
         printf("Score: ");
-        scanf("%c", &input);
+        scanf("%i%c", &input);
         if (input == '\n')
             stop = 1;
-
         else
             scores[i] = input;
     }

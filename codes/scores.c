@@ -5,9 +5,9 @@ int main(void)
 {
 
     int size = 10;
-    int scores[] = {73, 71, 33};
-    int count = 0, sum = 0 ;
-    count = sizeof(scores) / sizeof(scores[0]);
+    int scores[] = {72, 73, 33};
+    int sum = 0 ;
+    double count = sizeof(scores) / sizeof(scores[0]);
     for (int i = 0 ; i < count ; i++)
     {
         printf("%i\n", scores[i]);

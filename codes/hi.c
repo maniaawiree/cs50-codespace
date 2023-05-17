@@ -4,7 +4,7 @@
 
 int main(void)
 {
-    
+    //a string is an array of characters
     string s = "HI";
     printf("%s\n", s);
 }

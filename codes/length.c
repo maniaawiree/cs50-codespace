@@ -17,7 +17,7 @@ int main(void)
     // printf("%i\n", i);
 
     //int length = string_length(name);
-    int length = strlen(name);
+    int length = strnlen(name, 6);
     printf("%i\n", length);
 
 }

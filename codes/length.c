@@ -3,6 +3,7 @@
 #include <string.h>
 
 //int string_length(string s);
+size_t strnlen(const char *s, size_t maxlen);
 
 int main(void)
 {
@@ -17,7 +18,7 @@ int main(void)
     // printf("%i\n", i);
 
     //int length = string_length(name);
-    int length = strnlen(name, 6);
+    int length = strnlen(&name, 6);
     printf("%i\n", length);
 
 }

@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <cs50.h>
 
-int string_length(string s);
+//int string_length(string s);
 
 int main(void)
 {
@@ -15,18 +15,19 @@ int main(void)
     // }
     // printf("%i\n", i);
 
-    int length = string_length(name);
+    //int length = string_length(name);
+    int length = strlen(name);
     printf("%i\n", length);
 
 }
 
-int string_length(string s)
-{
-    int i = 0;
+// int string_length(string s)
+// {
+//     int i = 0;
 
-    while(s[i] != '\0')
-    {
-        i++;
-    }
-    return i;
-}
+//     while(s[i] != '\0')
+//     {
+//         i++;
+//     }
+//     return i;
+// }

@@ -14,7 +14,12 @@ int main(void)
     {
         //now to convert the characters from lower-case to upper-case?
         //the int value of every lower-case letter is 32 more than its upper-case
-        
+        if (s[i] >= 'a' && s[i] <= 'z')
+        {
+            
+        }
+        s[i] = 32 + s[i];
+        printf("%c", s[i]);
     }
     putchar('\n');
 

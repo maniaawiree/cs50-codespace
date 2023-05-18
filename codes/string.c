@@ -9,7 +9,10 @@ int main(void)
     //printf("%s\n", s);
     //printing the string inside string s without using s
     int i;
-    for (i = 0; i < strlen(s); i++)
+    /*instead of keep calling strlen as for the for loop condition, we can
+    call strlen one time and store the value in a variable!!*/
+    int size = strlen(s);
+    for (i = 0; i < size; i++)
     {
         printf("%c", s[i]);
     }

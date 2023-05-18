@@ -13,7 +13,8 @@ int main(void)
     for (int i = 0, size = strlen(s); i < size; i++)
     {
         //now to convert the characters from lower-case to upper-case?
-        printf("%c", s[i]);
+        //the int value of every lower-case letter is 32 more than its upper-case
+        
     }
     putchar('\n');
 

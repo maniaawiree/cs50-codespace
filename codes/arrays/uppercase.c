@@ -5,8 +5,8 @@
 
 int main(void)
 {
-    string s = get_string("Input : ");
-    printf("Output: ");
+    string s = get_string("Before: ");
+    printf("After: ");
     //printf("%s\n", s);
     //printing the string inside string s without using s
     /*instead of keep calling strlen as for the for loop condition, we can

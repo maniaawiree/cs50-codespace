@@ -22,7 +22,8 @@ int main(void)
         //how to upgrade this code? let's go to the manual
         if(islower(s[i])) // returns 1 if the char is lowercase
         {
-            printf("%c", s[i] - 32);
+            //printf("%c", s[i] - 32);
+            printf("%c", toupper(s[i]));
         }
 
         //so that other characters are printed the way they are without any changes
@@ -30,9 +31,6 @@ int main(void)
         {
             printf("%c", s[i]);
         }
-
-
-
 
     }
     putchar('\n');

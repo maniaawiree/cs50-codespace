@@ -8,7 +8,7 @@ int main(int argc, string argv[])
     {
         printf("Missing command-line argument\n");
         return 1;
-        \\this is a clue to the system that something went wrong!!
+        //this is a clue to the system that something went wrong!!
     }
     //the program will get to this point only if the if condition is false
         printf("Hello, %s!\n", argv[1]);

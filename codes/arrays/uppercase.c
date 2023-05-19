@@ -24,6 +24,8 @@ int main(void)
             printf("%c", s[i]);
         }
 
+        //how to upgrade this code? let's go to the manual
+
     }
     putchar('\n');
 

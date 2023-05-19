@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <cs50.h>
 #include <string.h>
+#include <ctype.h>
 
 int main(void)
 {
@@ -15,17 +16,22 @@ int main(void)
         //now to convert the characters from lower-case to upper-case?
         //the int value of every lower-case letter is 32 more than its upper-case
         // if (s[i] >= 'a' && s[i] <= 'z') //checking if the element is in 'a-z' alphabetical range
-        // {
+        //{
         //     printf("%c", s[i] - 32);
         // }
-        // //so that other characters are printed the way they are without any changes
-        // else
-        // {
-        //     printf("%c", s[i]);
-        // }
-
         //how to upgrade this code? let's go to the manual
-        int 
+        if(islower(s[i])) // returns 1 if the char is lowercase
+        {
+            printf("%c", s[i] - 32);
+        }
+
+        //so that other characters are printed the way they are without any changes
+        else
+        {
+            printf("%c", s[i]);
+        }
+
+
 
 
     }

@@ -3,5 +3,13 @@
 
 int main(int argc, string argv[])
 {
-    printf("Hello, %s\n", argv[1]);
+    if(argv[1] == NULL)
+    {
+        printf("Please enter your name in the command line!!\n");
+    }
+    else
+    {
+        printf("Hello, %s\n", argv[1]);
+
+    }
 }

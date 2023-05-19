@@ -20,7 +20,7 @@ int main(void)
         //     printf("%c", s[i] - 32);
         // }
         //how to upgrade this code? let's go to the manual
-        if(islower(s[i])) // returns 1 if the char is lowercase
+        if(islower(s[i]) != 0) // it would be false t
         {
             //printf("%c", s[i] - 32);
             printf("%c", toupper(s[i]));

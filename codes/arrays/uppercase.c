@@ -19,15 +19,14 @@ int main(void)
         //{
         //     printf("%c", s[i] - 32);
         // }
+
+        //NOW
         //how to upgrade this code? let's go to the manual
-        if(islower(s[i]) != 0) // it would be incorrect to check for 1 or -1 or anything else, so you'd want to check for anything
-        //else other than 0
-        {
             //the toupper() build in function does all the trick for us
             //if the character is lowercase it will return the uppercase version of it
             //if the character is uppercase or punctuation or etc it will just return the original character
-            printf("%c", toupper(s[i]));
-        }
+        printf("%c", toupper(s[i]));
+
 
     }
     putchar('\n');

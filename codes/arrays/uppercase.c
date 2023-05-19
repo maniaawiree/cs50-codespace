@@ -27,7 +27,7 @@ int main(void)
         }
 
         //so that other characters are printed the way they are without any changes
-        else
+        else //when the return value of islower() is 0
         {
             printf("%c", s[i]);
         }

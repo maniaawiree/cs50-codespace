@@ -20,7 +20,8 @@ int main(void)
         //     printf("%c", s[i] - 32);
         // }
         //how to upgrade this code? let's go to the manual
-        if(islower(s[i]) != 0) // it would be false t
+        if(islower(s[i]) != 0) // it would be incorrect to check for 1 or -1 or anything else, so you'd want to check for anything
+        //else other than 0
         {
             //printf("%c", s[i] - 32);
             printf("%c", toupper(s[i]));

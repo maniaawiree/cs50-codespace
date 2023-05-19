@@ -27,12 +27,6 @@ int main(void)
             printf("%c", toupper(s[i]));
         }
 
-        //so that other characters are printed the way they are without any changes
-        else //when the return value of islower() is 0
-        {
-            printf("%c", s[i]);
-        }
-
     }
     putchar('\n');
 
